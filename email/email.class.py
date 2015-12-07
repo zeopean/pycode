@@ -9,8 +9,8 @@ from email.mime.multipart import MIMEMultipart		#发送附件
 class emailHeadle:
 	'定义系统登录常量'
 	Host 	= 'smtp.163.com'
-	User	= '@163.com'
-	Pwd		= ''
+	User	= 'zeopean@163.com'
+	Pwd		= 'xyfvxafmwvowgcwx'
 	postfix	= 'email from zeopean@163.com'
 
 	# 发送text文本格式的邮件
