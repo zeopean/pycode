@@ -1,0 +1,324 @@
+2015-11-10 17:58:56,288 - logger_sina_reptile - ERROR - Error occured in reptile,id:1404376560
+Error:error_code:401,40113:token_rejected!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 221, in reptile
+    sina_reptile.manage_access()
+  File "sina_reptile.py", line 204, in manage_access
+    info = self.api.rate_limit_status()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:401,40113:token_rejected!
+2015-11-10 18:05:41,448 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:3892159670
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-10 18:10:45,076 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:2101603535
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-11 15:46:07,907 - logger_sina_reptile - ERROR - Error occured in reptile,id:1404376560
+Error:error_code:401,40113:token_rejected!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 221, in reptile
+    sina_reptile.manage_access()
+  File "sina_reptile.py", line 204, in manage_access
+    info = self.api.rate_limit_status()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:401,40113:token_rejected!
+2015-11-11 15:46:47,313 - logger_sina_reptile - ERROR - Error occured in reptile,id:1404376560
+Error:error_code:401,40113:token_rejected!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 221, in reptile
+    sina_reptile.manage_access()
+  File "sina_reptile.py", line 204, in manage_access
+    info = self.api.rate_limit_status()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:401,40113:token_rejected!
+2015-11-11 15:48:43,213 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:3892159670
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-11 15:50:08,905 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:2101603535
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-11 15:51:42,060 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1296650972
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-11 15:52:00,713 - logger_sina_reptile - ERROR - Error occured in reptile,id:1784456662
+Error:cannot do an empty bulk insert
+Traceback (most recent call last):
+  File "sina_reptile.py", line 228, in reptile
+    sina_reptile.save_data(userprofile,statuses)
+  File "sina_reptile.py", line 212, in save_data
+    self.collection_statuses.insert(statuses)
+  File "build/bdist.linux-x86_64/egg/pymongo/collection.py", line 362, in insert
+    self.database.connection)
+InvalidOperation: cannot do an empty bulk insert
+2015-11-11 15:54:20,609 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1188552450
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 15:54:28,990 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1862382142
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 15:54:32,790 - logger_sina_reptile - ERROR - Error occured in reptile,id:1752510323
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 15:55:35,721 - logger_sina_reptile - ERROR - Error occured in reptile,id:1937439635
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 15:56:38,188 - logger_sina_reptile - ERROR - Error occured in reptile,id:1854929255
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:22:58,978 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1646048923
+Error:error_code:400,40023:User does not exists!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:400,40023:User does not exists!
+2015-11-11 16:25:00,543 - logger_sina_reptile - ERROR - Error occured in reptile,id:1642634100
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:26:15,095 - logger_sina_reptile - ERROR - Error occured in reptile,id:1291017722
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:27:33,731 - logger_sina_reptile - ERROR - Error occured in reptile,id:2839685750
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:28:47,180 - logger_sina_reptile - ERROR - Error occured in reptile,id:1649189521
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:30:15,517 - logger_sina_reptile - ERROR - Error occured in reptile,id:1189729754
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:31:28,040 - logger_sina_reptile - ERROR - Error occured in reptile,id:1649259794
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:32:40,213 - logger_sina_reptile - ERROR - Error occured in reptile,id:1670813140
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:33:51,624 - logger_sina_reptile - ERROR - Error occured in reptile,id:1218126982
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:35:03,133 - logger_sina_reptile - ERROR - Error occured when access status use user_id:2161460242
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 152, in get_latest_weibo
+    timeline = self.api.user_timeline(count=count, user_id=user_id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:35:14,070 - logger_sina_reptile - ERROR - Error occured in reptile,id:1680632893
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:36:25,627 - logger_sina_reptile - ERROR - Error occured in reptile,id:1739113947
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:37:35,762 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1787094780
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:37:46,810 - logger_sina_reptile - ERROR - Error occured when access userprofile use user_id:1630815855
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 79, in get_userprofile
+    user = self.api.get_user(id)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
+2015-11-11 16:37:58,207 - logger_sina_reptile - ERROR - Error occured in reptile,id:3117572353
+Error:error_code:403,40310:User requests out of rate limit!
+Traceback (most recent call last):
+  File "sina_reptile.py", line 222, in reptile
+    return_ids = sina_reptile.friends_ids(id)
+  File "sina_reptile.py", line 193, in friends_ids
+    fids = self.api.friends_ids(user_id=id,cursor=cursor)
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 191, in _call
+    return method.execute()
+  File "/root/python/sina/SDK1/weibopy/binder.py", line 177, in execute
+    raise WeibopError(error_msg)
+WeibopError: error_code:403,40310:User requests out of rate limit!
